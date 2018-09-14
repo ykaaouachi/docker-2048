@@ -2,9 +2,9 @@
 
 ### Environnement
 
-* Alpine linux 3.8,
-* Nginx (last),
-* 2048 app : Code source from "https://github.com/gabrielecirulli/2048"
+* `Alpine linux` 3.8,
+* `Nginx` (last),
+* `2048` app : Code source from "https://github.com/gabrielecirulli/2048"
 
 ### How to use it
 
