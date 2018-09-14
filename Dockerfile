@@ -20,18 +20,3 @@ EXPOSE 80
 
 # Run nginx on startup
 CMD ["nginx", "-g", "daemon off;"]
-
-# update & install nginx
-#RUN apk update && \
-#    apk --update add nginx && \
-#    mkdir -p /run/nginx/ 
-
-
-# Copy content from 2048 repo to nginx repo
-#COPY 2048 /usr/share/nginx/html
-
-# Expose 80 as port
-#EXPOSE 80
-
-# Run nginx on startup
-#CMD ["nginx", "-g", "daemon off;"]
